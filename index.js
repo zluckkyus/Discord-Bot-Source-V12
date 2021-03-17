@@ -72,6 +72,11 @@ client.on("message", async message => {
     ) return message.reply(`Ola ${message.author} Eu sou ${client.user} Este eo meu prefix \`${db.get(`prefix_${message.guild.id}`)}\``);
 })
 
+// --- Funções 
+client.on("guildMemberAdd", (message, member) => {
+  const guild = client.guilds.cache.get('820409443584835584') // ID DA GUILDA
+  const MEMBROS = guild.channels.cache.find(channel => channel.id === "CANAL").setTopic(`🧙‍♂️ Total de membros: ${guild.memberCount}!`)
+}) // Contador de Membros em Chat
 
 // --- Logar o bot
 client.login('ODE2MDkyNTg1NTcwMzM2Nzg4.YD17cg.vF3G04Pv3kfCX-X-vdsiAF0SRPw')

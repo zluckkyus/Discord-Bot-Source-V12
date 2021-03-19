@@ -79,4 +79,4 @@ client.on("guildMemberAdd", (message, member) => {
 }) // Contador de Membros em Chat
 
 // --- Logar o bot
-client.login('ODE2MDkyNTg1NTcwMzM2Nzg4.YD17cg.vF3G04Pv3kfCX-X-vdsiAF0SRPw')
+client.login(process.env.TOKEN) // Coloque seu token em .env-example

@@ -1,9 +1,9 @@
-# Discord Bot Open Source
+# Discord Bot Open Source (Discord.js v12)
 
 - Um bot para Estudos
 - Feito com ❤
 - Database (Quick.db)
-- Importe para Glitch ou Repl.Glitch
+- Importe para Glitch ou Repl, Glitch
 
 ## Como Instalar?
 
